@@ -1,0 +1,14 @@
+name: HealMe
+version: 0.0.1
+api: [1.0.0]
+main: src\healme\main.php
+load: POSTWORLD
+commands: 
+  heal: 
+   description: "Sets your health to 10 hearts"
+   usage: "Usage: /heal" 
+   permission: HealMe.command.heal
+ permissions: 
+  HealMe.command.heal: 
+   description: "Allows ony ops too run this command" 
+   default: op
