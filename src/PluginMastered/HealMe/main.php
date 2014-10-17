@@ -8,14 +8,6 @@ use pocketmine\command\Command;
 use pocketmine\Player; 
 
 class HealMe extends PluginBase {
-
-  public function onEnable() {
-  
-  }
-  
-  public function onDisable() {
-  
-  }
   
   public function onCommand(CommandSender $sender,Command $cmd,$label,array $args) {
   if($sender instanceof Player) {
